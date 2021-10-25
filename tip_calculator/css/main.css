@@ -1,9 +1,10 @@
-@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap');
 /* line 4, scss/main.scss */
 * {
   margin: 0;
   padding: 0;
-  box-sizing: border-box; }
+  box-sizing: border-box;
+}
 
 /* line 10, scss/main.scss */
 body {
@@ -12,8 +13,9 @@ body {
   justify-content: center;
   align-items: center;
   width: 100vw;
-  height: 100vh;
-  font-family: "Roboto", sans-serif; }
+  min-height: 100vh;
+  font-family: 'Roboto', sans-serif;
+}
 
 /* line 20, scss/main.scss */
 .container {
@@ -26,37 +28,42 @@ body {
   background-color: #023b3b;
   border-radius: 20px;
   box-shadow: 5px 9px 12px -3px rgba(15, 230, 176, 0.75);
-  padding: 30px 20px; }
+  padding: 30px 20px;
+}
 
 /* line 33, scss/main.scss */
 h1 {
   color: #99e2b4;
-  margin-top: 30px; }
+  margin-top: 30px;
+}
 
 /* line 39, scss/main.scss */
 .bill-input {
   display: flex;
   align-items: center;
-  margin: 20px auto; }
-  /* line 43, scss/main.scss */
-  .bill-input i {
-    font-size: 1.2rem;
-    color: #99e2b4;
-    border: 1px solid #99e2b4;
-    padding: 15px 20px;
-    border-radius: 5px;
-    font-weight: bold; }
-  /* line 52, scss/main.scss */
-  .bill-input input {
-    padding: 15px 30px;
-    background-color: #99e2b4;
-    outline: none;
-    border: none;
-    margin: 0 10px;
-    border-radius: 5px;
-    color: #023b3b;
-    font-size: 1.2rem;
-    font-weight: bold; }
+  margin: 20px auto;
+}
+/* line 43, scss/main.scss */
+.bill-input i {
+  font-size: 1.2rem;
+  color: #99e2b4;
+  border: 1px solid #99e2b4;
+  padding: 15px 20px;
+  border-radius: 5px;
+  font-weight: bold;
+}
+/* line 52, scss/main.scss */
+.bill-input input {
+  padding: 15px 30px;
+  background-color: #99e2b4;
+  outline: none;
+  border: none;
+  margin: 0 10px;
+  border-radius: 5px;
+  color: #023b3b;
+  font-size: 1.2rem;
+  font-weight: bold;
+}
 
 /* line 67, scss/main.scss */
 .recep-ivedik {
@@ -65,7 +72,8 @@ h1 {
   font-size: 0.8rem;
   line-height: 2rem;
   border: 1px dotted #99e2b4;
-  padding: 10px 50px; }
+  padding: 10px 50px;
+}
 
 /* line 77, scss/main.scss */
 .tips {
@@ -75,49 +83,57 @@ h1 {
   border: 1px solid #99e2b4;
   width: 100%;
   margin: 30px auto;
-  border-radius: 5px; }
-  /* line 86, scss/main.scss */
-  .tips h3 {
-    text-align: center;
-    color: #99e2b4;
-    margin-top: 10px; }
-  /* line 92, scss/main.scss */
-  .tips .country {
-    padding: 20px 20px;
-    display: flex;
-    height: 45%;
-    justify-content: space-between;
-    width: 100%; }
-  /* line 100, scss/main.scss */
-  .tips .tip {
-    border: 1px solid #99e2b4;
-    padding: 10px;
-    flex: 1;
-    text-transform: uppercase;
-    color: #99e2b4;
-    text-align: center;
-    margin-right: 5px;
-    cursor: pointer;
-    border-radius: 5px;
-    transition: all 0.3s ease; }
-    /* line 112, scss/main.scss */
-    .tips .tip.active {
-      color: #f4f4f4;
-      background-color: #99e2b4; }
-    /* line 116, scss/main.scss */
-    .tips .tip:hover {
-      color: #f4f4f4;
-      background-color: #99e2b4; }
-  /* line 122, scss/main.scss */
-  .tips .tip:last-child {
-    margin-right: 0; }
-  /* line 126, scss/main.scss */
-  .tips .percentage {
-    padding: 20px 20px;
-    display: flex;
-    height: 45%;
-    justify-content: space-between;
-    width: 100%; }
+  border-radius: 5px;
+}
+/* line 86, scss/main.scss */
+.tips h3 {
+  text-align: center;
+  color: #99e2b4;
+  margin-top: 10px;
+}
+/* line 92, scss/main.scss */
+.tips .country {
+  padding: 20px 20px;
+  display: flex;
+  height: 45%;
+  justify-content: space-between;
+  width: 100%;
+}
+/* line 100, scss/main.scss */
+.tips .tip {
+  border: 1px solid #99e2b4;
+  padding: 10px;
+  flex: 1;
+  text-transform: uppercase;
+  color: #99e2b4;
+  text-align: center;
+  margin-right: 5px;
+  cursor: pointer;
+  border-radius: 5px;
+  transition: all 0.3s ease;
+}
+/* line 112, scss/main.scss */
+.tips .tip.active {
+  color: #f4f4f4;
+  background-color: #99e2b4;
+}
+/* line 116, scss/main.scss */
+.tips .tip:hover {
+  color: #f4f4f4;
+  background-color: #99e2b4;
+}
+/* line 122, scss/main.scss */
+.tips .tip:last-child {
+  margin-right: 0;
+}
+/* line 126, scss/main.scss */
+.tips .percentage {
+  padding: 20px 20px;
+  display: flex;
+  height: 45%;
+  justify-content: space-between;
+  width: 100%;
+}
 
 /* line 137, scss/main.scss */
 .result {
@@ -126,58 +142,68 @@ h1 {
   border: 1px solid #023b3b;
   background-color: #99e2b4;
   padding: 40px;
-  border-radius: 5px; }
-  /* line 145, scss/main.scss */
-  .result .display {
-    color: #023b3b;
-    font-size: 2rem; }
-  /* line 150, scss/main.scss */
-  .result .adv {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin: 20px 0;
-    display: none; }
-    /* line 157, scss/main.scss */
-    .result .adv i {
-      color: red;
-      margin-right: 10px; }
-    /* line 162, scss/main.scss */
-    .result .adv a {
-      text-decoration: none;
-      color: blue; }
+  border-radius: 5px;
+}
+/* line 145, scss/main.scss */
+.result .display {
+  color: #023b3b;
+  font-size: 2rem;
+}
+/* line 150, scss/main.scss */
+.result .adv {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 20px 0;
+  display: none;
+}
+/* line 157, scss/main.scss */
+.result .adv i {
+  color: red;
+  margin-right: 10px;
+}
+/* line 162, scss/main.scss */
+.result .adv a {
+  text-decoration: none;
+  color: blue;
+}
 
 /* line 171, scss/main.scss */
 .calc-buttons {
   width: 100%;
   display: flex;
-  padding: 30px 30px; }
-  /* line 176, scss/main.scss */
-  .calc-buttons .reset {
-    flex: 1;
-    background-color: transparent;
-    margin-right: 20px;
-    border: 1px solid #99e2b4;
-    padding: 10px 20px;
-    color: #99e2b4;
-    cursor: pointer;
-    font-weight: bold;
-    font-size: 1.2rem; }
-    /* line 187, scss/main.scss */
-    .calc-buttons .reset:hover {
-      background-color: #99e2b4;
-      color: #f4f4f4; }
-  /* line 193, scss/main.scss */
-  .calc-buttons .calculate {
-    flex: 2;
-    border: 1px solid #99e2b4;
-    padding: 10px 20px;
-    color: #99e2b4;
-    cursor: pointer;
-    background-color: transparent;
-    font-weight: bold;
-    font-size: 1.2rem; }
-    /* line 203, scss/main.scss */
-    .calc-buttons .calculate:hover {
-      background-color: #99e2b4;
-      color: #f4f4f4; }
+  padding: 30px 30px;
+}
+/* line 176, scss/main.scss */
+.calc-buttons .reset {
+  flex: 1;
+  background-color: transparent;
+  margin-right: 20px;
+  border: 1px solid #99e2b4;
+  padding: 10px 20px;
+  color: #99e2b4;
+  cursor: pointer;
+  font-weight: bold;
+  font-size: 1.2rem;
+}
+/* line 187, scss/main.scss */
+.calc-buttons .reset:hover {
+  background-color: #99e2b4;
+  color: #f4f4f4;
+}
+/* line 193, scss/main.scss */
+.calc-buttons .calculate {
+  flex: 2;
+  border: 1px solid #99e2b4;
+  padding: 10px 20px;
+  color: #99e2b4;
+  cursor: pointer;
+  background-color: transparent;
+  font-weight: bold;
+  font-size: 1.2rem;
+}
+/* line 203, scss/main.scss */
+.calc-buttons .calculate:hover {
+  background-color: #99e2b4;
+  color: #f4f4f4;
+}
