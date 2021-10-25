@@ -1,0 +1,25 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  height: 100vh;
+  background-color: #000;
+}
+
+.container {
+  width: 500px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.box {
+  width: 25px;
+  margin: 1px;
+  height: 25px;
+  background-color: #444;
+  border: 1px solid #000;
+  transition: all 0.4s ease;
+}
