@@ -1,0 +1,98 @@
+@import url("https://fonts.googleapis.com/css2?family=Zen+Dots&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Zen Dots", cursive;
+  -webkit-font-smoothing: antialiased;
+}
+
+body {
+  background: linear-gradient(to bottom, #ffb75e, #ed8f03);
+  height: 100vh;
+  overflow: hidden;
+  width: 100vw;
+}
+
+.dice-game {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 10vh;
+}
+.rolls {
+  display: flex;
+  margin-top: 50px;
+}
+
+.roll {
+  text-align: center;
+  margin-right: 20px;
+}
+
+h1 {
+  font-size: 3rem;
+}
+
+h3 {
+  margin-top: 30px;
+}
+
+.btn {
+  margin-top: 20px;
+  padding: 15px 30px;
+  border-radius: 10px;
+  cursor: pointer;
+  font-size: 1.5rem;
+  color: #f4f4f4;
+  background: linear-gradient(to right, #e52d27, #b31217);
+  border: none;
+  transition: color 0.5s ease-in;
+}
+
+.btn:hover {
+  color: #000;
+}
+
+/* PLAYER NAMES  */
+
+.player-names {
+  display: flex;
+}
+
+.first-player,
+.second-player {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 20px 20px 0 0;
+}
+
+input {
+  margin: 10px 0;
+  height: 30px;
+  padding: 0 10px;
+  outline: none;
+  border-radius: 5px;
+  border: none;
+}
+
+input:focus {
+  outline: none;
+}
+
+.player-name-btn {
+  padding: 7px;
+  border: none;
+  border-radius: 5px;
+  background: linear-gradient(to right, #e52d27, #b31217);
+  color: #fff;
+  transition: color 0.5s ease-in;
+}
+
+.player-name-btn:hover {
+  color: #000;
+}

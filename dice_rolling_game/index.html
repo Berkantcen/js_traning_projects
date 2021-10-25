@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/main.css">
+    <title>Beta's Dice Game</title>
+</head>
+<body>
+    
+<div class="dice-game">
+    <h1>WELCOME TO THE GAME FOR AGES</h1>
+    <h3>Click Roll to Decide Who will be the Winner</h3>
+    
+    <div class="player-names">
+        <div class="first-player">
+            <label for="first-player-name">Player ONE</label>
+            <input type="text" name="first-player-name" id="first-player-name">
+            <button class="player-name-btn">Submit</button>
+        </div>
+        <div class="second-player">
+            <label for="second-player-name">Player TWO</label>
+            <input type="text" name="second-player-name" id="second-player-name">
+            <button class="player-name-btn">Submit</button>
+        </div>
+    </div>
+    
+    
+    <button id="btn" class="btn"> Click to Roll</button>
+    <div class="rolls">
+        <div class="roll">
+            <h4  id="starting-name-one">Player ONE</h4>
+            <img id="first"src="/img/dicestart.png" alt="">
+        </div>
+        <div class="roll">
+            <h4 id="starting-name-two">Player TWO</h4>
+            <img id="second" src="/img/dicestart.png" alt="">
+        </div>
+    </div>
+</div>
+
+<script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+<script src="/app.js"></script>
+</body>
+</html>

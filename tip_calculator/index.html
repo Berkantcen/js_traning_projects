@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+      integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="/dist/css/main.css" />
+
+    <title>Tip Calculator || Berkant CEN</title>
+  </head>
+  <body>
+    <div class="container">
+      <h1>Tip Calculator</h1>
+
+      <!-- BILL -->
+      <div class="bill-input">
+        <i class="fas fa-dollar-sign"></i>
+        <input type="text" class="input" placeholder="Enter Your Bill" />
+      </div>
+
+      <!-- OZLU SOZ -->
+      <div class="recep-ivedik">
+        <h4>A mı diyim, b mi diyim, c mi diyim, d mi diyim, ne diyim?</h4>
+      </div>
+
+      <!-- OPTIONS -->
+      <div class="tips">
+        <h3>Select Your Tipping Option</h3>
+
+        <div class="country">
+          <div class="tip active">turkey</div>
+          <div class="tip">usa</div>
+          <div class="tip">england</div>
+          <div class="tip">uganda</div>
+        </div>
+        <div class="percentage">
+          <div class="tip">10%</div>
+          <div class="tip">15%</div>
+          <div class="tip">20%</div>
+          <div class="tip">25%</div>
+        </div>
+      </div>
+      <!-- RESULT -->
+      <div class="result">
+        <div class="display"></div>
+        <div class="adv">
+          <i class="fab fa-youtube"></i>
+          <p>
+            Dont forget to <a href="" target="_blank"> Subscribe </a> on youtube
+          </p>
+        </div>
+      </div>
+      <!-- BTN -->
+      <div class="calc-buttons">
+        <button class="reset">Reset</button>
+        <button class="calculate">Calculate</button>
+      </div>
+    </div>
+
+    <script src="/dist/app.js"></script>
+  </body>
+</html>
