@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: 'Roboto', sans-serif;
+  background-color: #444;
+  width: 100vw;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  width: 100%;
+  padding: 0 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+}
+
+.container p {
+  margin: 10px 0;
+}
+
+.btn {
+  padding: 10px 20px;
+  background-color: transparent;
+  color: #fff;
+  border: 1px solid #fff;
+  cursor: pointer;
+  border-radius: 10px;
+  font-size: 1.2rem;
+}
+
+.btn:hover {
+  background-color: #fff;
+  color: #444;
+}
+
+/* QUESTION AND ANSWERS */
+.answer-list {
+  max-width: 600px;
+  min-width: 300px;
+}
+
+.answer {
+  padding: 20px 0;
+  list-style: none;
+  text-align: center;
+  border-radius: 10px;
+  border: 1px solid #fff;
+  margin: 20px;
+  cursor: pointer;
+}
+
+.answer.active {
+  background-color: green;
+}
+
+.next-btn {
+  margin-top: 50px;
+}
