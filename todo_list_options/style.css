@@ -1,0 +1,142 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: #ffb703;
+  color: #fff;
+  min-height: 100vh;
+  width: 100vw;
+  overflow-x: hidden;
+}
+
+h1 {
+  font-size: 1.4rem;
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 50px;
+}
+
+.todo-input-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 20px 0;
+  border-bottom: 1px solid #fff;
+}
+
+form input,
+form button {
+  font-size: 1.4rem;
+  padding: 10px;
+  margin: 0;
+  border: none;
+}
+
+.input-wrapper {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  margin: 20px;
+}
+
+form button {
+  background-color: #fff;
+  color: #fb8500;
+  cursor: pointer;
+}
+
+form button:hover {
+  background-color: #fb8500;
+  color: #fff;
+}
+
+form input:focus {
+  outline: none;
+}
+
+select {
+  font-size: 1.2rem;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+  width: 200px;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+select:focus {
+  outline: none;
+}
+
+.error {
+  display: none;
+}
+.error.active {
+  display: block;
+  font-size: 1.2rem;
+  color: red;
+  border: 1px solid red;
+  padding: 10px;
+}
+/* TODO LISTS */
+.todo-list-container {
+  display: flex;
+  flex-direction: column;
+  height: auto;
+}
+
+.todo-list {
+  background-color: #fff;
+  color: #333;
+  min-width: 300px;
+  display: flex;
+  flex-direction: column;
+  padding: 10px 20px;
+  border-radius: 10px;
+  margin: 20px;
+  height: fit-content;
+}
+
+.todo-list h3 {
+  text-align: center;
+  margin-bottom: 20px;
+  margin-top: 10px;
+}
+
+.todo-list li {
+  list-style: none;
+  margin: 20px 0;
+  padding-bottom: 10px;
+  border-bottom: 1px solid #333;
+  font-size: 1.1rem;
+  max-width: 350px;
+}
+
+.todo {
+  display: flex;
+  justify-content: space-between;
+}
+
+.todo.done {
+  text-decoration: line-through;
+}
+
+.todo i {
+  margin: 0 10px;
+  cursor: pointer;
+}
+
+/* Media query */
+
+@media only screen and (min-width: 1100px) {
+  .todo-list-container {
+    flex-direction: row;
+  }
+}
