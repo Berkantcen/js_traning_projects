@@ -1,17 +1,17 @@
-@import url("https://fonts.googleapis.com/css2?family=Zen+Dots&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Zen+Dots&display=swap');
 
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: "Zen Dots", cursive;
+  font-family: 'Zen Dots', cursive;
   -webkit-font-smoothing: antialiased;
 }
 
 body {
   background: linear-gradient(to bottom, #ffb75e, #ed8f03);
-  height: 100vh;
-  overflow: hidden;
+  min-height: 100vh;
+
   width: 100vw;
 }
 
