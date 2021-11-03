@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="main.css" />
+    <title>Number Guessing Game</title>
+  </head>
+  <body>
+    <main>
+      <h1>Number Guessing Game</h1>
+      <h3>Try and find the number between 1 and 100</h3>
+
+      <div class="game-container">
+        <div class="form-container">
+          <form>
+            <input type="number" required id="input" />
+            <button class="try">Try</button>
+          </form>
+          <p class="score">Lives Left : 10</p>
+          <p class="hint"></p>
+        </div>
+        <div class="info-container">
+          <p class="tried">Numbers :</p>
+          <button class="start-again">Start Again</button>
+        </div>
+      </div>
+    </main>
+
+    <script src="app.js"></script>
+  </body>
+</html>

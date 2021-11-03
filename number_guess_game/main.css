@@ -1,0 +1,99 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #243433;
+  color: #fff;
+  width: 100vw;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 40px;
+}
+
+form {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  align-items: center;
+
+  margin: 10px auto;
+}
+
+h1 {
+  text-align: center;
+  font-size: 3rem;
+
+  padding: 10px 0;
+}
+
+h3 {
+  text-align: center;
+  margin: 20px auto;
+}
+
+.game-container {
+  background-color: #23adf3;
+  min-height: 400px;
+  border-radius: 10px;
+  box-shadow: 2px 2px 2px 2px #000;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 10px 20px;
+}
+
+.score {
+  text-align: center;
+  margin: 20px;
+  font-size: 2rem;
+}
+
+.hint {
+  font-size: 1.5rem;
+  text-align: center;
+  margin: 10px;
+}
+
+.tried {
+  font-size: 1.45rem;
+  margin: 10px;
+  border: 1px solid #fff;
+  padding: 10px 20px;
+  text-align: start;
+  min-width: 200px;
+}
+
+/* FORM  */
+input,
+button {
+  margin: 20px 0;
+  border: none;
+
+  font-size: 1.4rem;
+  padding: 10px 20px;
+  background-color: #fff;
+}
+
+button {
+  border-left: 1px solid #000;
+  cursor: pointer;
+}
+
+input:focus {
+  outline: none;
+}
+
+.start-again {
+  width: 300px;
+  display: none;
+  margin: 40px auto;
+}
+
+.info-container {
+  width: 100%;
+}
